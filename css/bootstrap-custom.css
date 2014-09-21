@@ -74,7 +74,40 @@ nav {
 	margin:0;
 }
 
-@media (max-width: 1085px) {
+
+.nav.navbar-nav li{
+        padding:15px 10px;
+        margin: 0 35px;
+      }
+
+
+
+
+@media (max-width: 1435px) {
+  .nav.navbar-nav li{  
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 1365px) {
+  .nav.navbar-nav li{  
+    margin: 0 25px;
+  }
+}
+
+@media (max-width: 1295px) {
+  .nav.navbar-nav li{  
+    margin: 0 22px;
+  }
+}
+
+@media (max-width: 1251px) {
+  .nav.navbar-nav li{  
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 1225px) {
    
     .navbar-header {
         float: none;
