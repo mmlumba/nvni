@@ -1,0 +1,3 @@
+$(function(){
+  $('#mochiPicker').datepicker();
+})
