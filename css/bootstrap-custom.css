@@ -140,6 +140,6 @@ nav {
     }    
 }
 
-news-carousel {
-  margin: 40;
+#news-carousel {
+  margin: 40px;
 }
