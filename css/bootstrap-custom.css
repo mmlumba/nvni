@@ -54,6 +54,7 @@ border-color: #e7e7e7;
 /* Panels Stuff */
 .panel-default>.panel-heading {
 	background-color: #5986AD;
+  margin: 0;
 }
 
 .panel-title {
@@ -139,3 +140,6 @@ nav {
     }    
 }
 
+news-carousel {
+  margin: 40;
+}
