@@ -1,3 +1,43 @@
 .calendarContainer { overflow: hidden;}
 
 .calendarContainer .panel-body { padding: 8px 0 8px 33px; }
+
+
+body { padding-top: 50px; }
+
+#news-carousel .carousel-caption {
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:left;
+    padding:10px;
+    background:rgba(0,0,0,0.6);
+    text-shadow:none;
+}
+
+#news-carousel .list-group {
+    position:absolute;
+    top:0;
+    right:0;
+}
+#news-carousel .list-group-item {
+    border-radius:0px;
+    cursor:pointer;
+}
+#news-carousel .list-group .active {
+    background-color:#eee;
+}
+
+@media (min-width: 992px) {
+    #news-carousel {padding-right:33.3333%;}
+    #news-carousel .carousel-controls {display:none;}
+}
+@media (max-width: 991px) {
+    .carousel-caption p,
+    #news-carousel .list-group {display:none;}
+}
+
+.item{
+    background: #333;
+    height: 300px !important;
+}
