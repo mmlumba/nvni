@@ -143,3 +143,12 @@ nav {
 #news-carousel {
   margin: 40px;
 }
+
+footer {
+  background-color: #5986AD;
+  color: #FFF;
+}
+
+footer.row > div.col-md-3 {
+  text-align: right;
+}
