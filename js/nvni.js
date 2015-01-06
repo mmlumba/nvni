@@ -22,8 +22,8 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'contact.html',
       controller: 'RouteController'
     }).
-    when('/route2', {
-      templateUrl: 'angular-route-template-2.jsp',
+    when('/apply', {
+      templateUrl: 'apply.html',
       controller: 'RouteController'
     }).
     otherwise({
