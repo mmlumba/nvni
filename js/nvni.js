@@ -1,4 +1,42 @@
+var app = angular.module("nvniapp", ['ngRoute']);
+
+/*app.controller('nvniCtrl', function($scope){
+  $scope.headerUrl = "templates/header.html";
+  $scope.footerUrl = "templates/footer.html";
+  $scope.showPage = function(){
+    $scope.page = 
+  };
+});
+
+app.config(['$routeProvider', function ($routeProvider){
+  $routeProvider.when
+}])*/
+
+app.config(['$routeProvider', function($routeProvider) {
+  $routeProvider.
+    when('/', {
+      templateUrl: 'main.html',
+      controller: 'RouteController'
+    }).
+    when('/contact', {
+      templateUrl: 'contact.html',
+      controller: 'RouteController'
+    }).
+    when('/route2', {
+      templateUrl: 'angular-route-template-2.jsp',
+      controller: 'RouteController'
+    }).
+    otherwise({
+      redirectTo: '/'
+    });
+  }]);
+
+app.controller("RouteController", function($scope) {
+
+})
+
 $(function(){
+  
   $('#mochiPicker').datepicker();
 
   var hasBeenClicked = false;
