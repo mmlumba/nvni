@@ -26,6 +26,14 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'apply.html',
       controller: 'RouteController'
     }).
+    when('/whychooseus', {
+      templateUrl: 'whychooseus.html',
+      controller: 'RouteController'
+    }).
+    when('/schedule', {
+      templateUrl: 'schedule.html',
+      controller: 'RouteController'
+    }).
     otherwise({
       redirectTo: '/'
     });
