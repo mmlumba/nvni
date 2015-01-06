@@ -3,7 +3,9 @@
 .calendarContainer .panel-body { padding: 8px 0 8px 33px; }
 
 
-body { padding-top: 6px; }
+body { padding-top: 6px;  margin: 0px 60px; }
+
+.footerArea { margin: 0;}
 
 #news-carousel .carousel-caption {
     left:0;
