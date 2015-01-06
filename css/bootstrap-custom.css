@@ -11,6 +11,13 @@
   background-color: transparent;
   color: #FFF;
 }
+
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  outline: none;
+  color: black;
+}
+
 .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active > a:hover {
   background: none;
   color: #F5F5F5;
